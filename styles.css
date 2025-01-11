@@ -1,0 +1,44 @@
+.review {
+    width: 100%;
+    height: 100vh;
+    padding: 70px 0;
+}
+
+.review h1 {
+    font-size: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.review h1 span {
+    margin-left: 15px;
+    color: #fac031;
+}
+
+.review .review_box {
+    width: 95%;
+    margin: 70px auto;
+    display: flex; /* Use flexbox to arrange items in a row */
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+}
+
+.review_card {
+    width: 30%; /* Set a width for each card */
+    display: flex; /* Use flexbox for the card layout */
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+.review p {
+    font-size: larger;
+    margin: 5px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: bold; /* Use font-weight instead of font */
+}
+
+.review_icon {
+    color: #fac031;
+}
